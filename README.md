@@ -1,5 +1,6 @@
 # StarWars-BlastersTournamentApp
 A Machine Coding Exercise for Software Development Engineer II - Mobile iOS in Flipkart
+![StarWar](https://github.com/user-attachments/assets/27057011-8fb7-46e5-bbba-522d606f4db4)
 
 A long time ago, in a galaxy far, far away…
 All the mighty heroes take a break from the long war and are enjoying an off-season. Jabba the Hutt, one of the galaxy's most powerful gangsters had in the meantime organised a Blasters duel for the galaxy's greatest.
@@ -33,3 +34,7 @@ Match List - https://jsonkeeper.com/b/JNYL / https://api.npoint.io/bc3f07c7442e8
 
 
 ## Result
+Screen recording of the app Interface and working logic:
+
+https://github.com/user-attachments/assets/2cc01681-bdf2-4bc2-ae02-d2e6b3bb28b9
+

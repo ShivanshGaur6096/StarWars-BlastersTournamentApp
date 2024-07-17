@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524A00062C411FF000A74AFC /* MatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A00052C411FEF00A74AFC /* MatchModel.swift */; };
+		524A000B2C4120B000A74AFC /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A000A2C4120B000A74AFC /* PlayerViewModel.swift */; };
+		524A00122C41214C00A74AFC /* PointsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A00112C41214C00A74AFC /* PointsTableView.swift */; };
+		524A00192C413DEB00A74AFC /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A00182C413DEB00A74AFC /* MatchDetailView.swift */; };
+		524A00222C413E8800A74AFC /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A00212C413E8800A74AFC /* PlayerModel.swift */; };
+		524A00252C413F1700A74AFC /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A00242C413F1700A74AFC /* StringConstants.swift */; };
+		524AFFD82C411EA000A74AFC /* StarWars_BlastersTournamentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFFD72C411EA000A74AFC /* StarWars_BlastersTournamentAppApp.swift */; };
+		524AFFDC2C411EA200A74AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524AFFDB2C411EA200A74AFC /* Assets.xcassets */; };
+		524AFFDF2C411EA200A74AFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524AFFDE2C411EA200A74AFC /* Preview Assets.xcassets */; };
+		524AFFE92C411EA200A74AFC /* StarWars_BlastersTournamentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFFE82C411EA200A74AFC /* StarWars_BlastersTournamentAppTests.swift */; };
+		524AFFF32C411EA200A74AFC /* StarWars_BlastersTournamentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFFF22C411EA200A74AFC /* StarWars_BlastersTournamentAppUITests.swift */; };
+		524AFFF52C411EA200A74AFC /* StarWars_BlastersTournamentAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AFFF42C411EA200A74AFC /* StarWars_BlastersTournamentAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524AFFE52C411EA200A74AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524AFFCC2C411EA000A74AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524AFFD32C411EA000A74AFC;
+			remoteInfo = "StarWars-BlastersTournamentApp";
+		};
+		524AFFEF2C411EA200A74AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524AFFCC2C411EA000A74AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524AFFD32C411EA000A74AFC;
+			remoteInfo = "StarWars-BlastersTournamentApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524A00052C411FEF00A74AFC /* MatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchModel.swift; sourceTree = "<group>"; };
+		524A000A2C4120B000A74AFC /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		524A00112C41214C00A74AFC /* PointsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTableView.swift; sourceTree = "<group>"; };
+		524A00132C41245B00A74AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		524A00182C413DEB00A74AFC /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
+		524A00212C413E8800A74AFC /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		524A00242C413F1700A74AFC /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		524AFFD42C411EA000A74AFC /* StarWars-BlastersTournamentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars-BlastersTournamentApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AFFD72C411EA000A74AFC /* StarWars_BlastersTournamentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars_BlastersTournamentAppApp.swift; sourceTree = "<group>"; };
+		524AFFDB2C411EA200A74AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524AFFDE2C411EA200A74AFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524AFFE42C411EA200A74AFC /* StarWars-BlastersTournamentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarWars-BlastersTournamentAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AFFE82C411EA200A74AFC /* StarWars_BlastersTournamentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars_BlastersTournamentAppTests.swift; sourceTree = "<group>"; };
+		524AFFEE2C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StarWars-BlastersTournamentAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AFFF22C411EA200A74AFC /* StarWars_BlastersTournamentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars_BlastersTournamentAppUITests.swift; sourceTree = "<group>"; };
+		524AFFF42C411EA200A74AFC /* StarWars_BlastersTournamentAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars_BlastersTournamentAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524AFFD12C411EA000A74AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFE12C411EA200A74AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFEB2C411EA200A74AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524A00012C411F1800A74AFC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				524A00072C41203700A74AFC /* MainView */,
+				524A00022C411F3C00A74AFC /* PointsTableScreen */,
+				524A00032C411F5000A74AFC /* MatchDetailScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		524A00022C411F3C00A74AFC /* PointsTableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				524A00202C413E7800A74AFC /* Model */,
+				524A001F2C413E6500A74AFC /* View */,
+				524A00082C41206500A74AFC /* ViewModel */,
+			);
+			path = PointsTableScreen;
+			sourceTree = "<group>";
+		};
+		524A00032C411F5000A74AFC /* MatchDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				524A001B2C413E1A00A74AFC /* Model */,
+				524A001A2C413E1000A74AFC /* View */,
+			);
+			path = MatchDetailScreen;
+			sourceTree = "<group>";
+		};
+		524A00072C41203700A74AFC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFD72C411EA000A74AFC /* StarWars_BlastersTournamentAppApp.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		524A00082C41206500A74AFC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				524A000A2C4120B000A74AFC /* PlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		524A00172C413DBD00A74AFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFDB2C411EA200A74AFC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		524A001A2C413E1000A74AFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524A00182C413DEB00A74AFC /* MatchDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		524A001B2C413E1A00A74AFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524A00052C411FEF00A74AFC /* MatchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		524A001F2C413E6500A74AFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524A00112C41214C00A74AFC /* PointsTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		524A00202C413E7800A74AFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524A00212C413E8800A74AFC /* PlayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		524A00232C413F0300A74AFC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				524A00242C413F1700A74AFC /* StringConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		524AFFCB2C411EA000A74AFC = {
+			isa = PBXGroup;
+			children = (
+				524AFFD62C411EA000A74AFC /* StarWars-BlastersTournamentApp */,
+				524AFFE72C411EA200A74AFC /* StarWars-BlastersTournamentAppTests */,
+				524AFFF12C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests */,
+				524AFFD52C411EA000A74AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524AFFD52C411EA000A74AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFD42C411EA000A74AFC /* StarWars-BlastersTournamentApp.app */,
+				524AFFE42C411EA200A74AFC /* StarWars-BlastersTournamentAppTests.xctest */,
+				524AFFEE2C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524AFFD62C411EA000A74AFC /* StarWars-BlastersTournamentApp */ = {
+			isa = PBXGroup;
+			children = (
+				524A00232C413F0300A74AFC /* Constants */,
+				524A00132C41245B00A74AFC /* Info.plist */,
+				524A00012C411F1800A74AFC /* Screens */,
+				524A00172C413DBD00A74AFC /* Resources */,
+				524AFFDD2C411EA200A74AFC /* Preview Content */,
+			);
+			path = "StarWars-BlastersTournamentApp";
+			sourceTree = "<group>";
+		};
+		524AFFDD2C411EA200A74AFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFDE2C411EA200A74AFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		524AFFE72C411EA200A74AFC /* StarWars-BlastersTournamentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFE82C411EA200A74AFC /* StarWars_BlastersTournamentAppTests.swift */,
+			);
+			path = "StarWars-BlastersTournamentAppTests";
+			sourceTree = "<group>";
+		};
+		524AFFF12C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524AFFF22C411EA200A74AFC /* StarWars_BlastersTournamentAppUITests.swift */,
+				524AFFF42C411EA200A74AFC /* StarWars_BlastersTournamentAppUITestsLaunchTests.swift */,
+			);
+			path = "StarWars-BlastersTournamentAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524AFFD32C411EA000A74AFC /* StarWars-BlastersTournamentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524AFFF82C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentApp" */;
+			buildPhases = (
+				524AFFD02C411EA000A74AFC /* Sources */,
+				524AFFD12C411EA000A74AFC /* Frameworks */,
+				524AFFD22C411EA000A74AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarWars-BlastersTournamentApp";
+			packageProductDependencies = (
+			);
+			productName = "StarWars-BlastersTournamentApp";
+			productReference = 524AFFD42C411EA000A74AFC /* StarWars-BlastersTournamentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524AFFE32C411EA200A74AFC /* StarWars-BlastersTournamentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524AFFFB2C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentAppTests" */;
+			buildPhases = (
+				524AFFE02C411EA200A74AFC /* Sources */,
+				524AFFE12C411EA200A74AFC /* Frameworks */,
+				524AFFE22C411EA200A74AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524AFFE62C411EA200A74AFC /* PBXTargetDependency */,
+			);
+			name = "StarWars-BlastersTournamentAppTests";
+			productName = "StarWars-BlastersTournamentAppTests";
+			productReference = 524AFFE42C411EA200A74AFC /* StarWars-BlastersTournamentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524AFFED2C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524AFFFE2C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentAppUITests" */;
+			buildPhases = (
+				524AFFEA2C411EA200A74AFC /* Sources */,
+				524AFFEB2C411EA200A74AFC /* Frameworks */,
+				524AFFEC2C411EA200A74AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524AFFF02C411EA200A74AFC /* PBXTargetDependency */,
+			);
+			name = "StarWars-BlastersTournamentAppUITests";
+			productName = "StarWars-BlastersTournamentAppUITests";
+			productReference = 524AFFEE2C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524AFFCC2C411EA000A74AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					524AFFD32C411EA000A74AFC = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					524AFFE32C411EA200A74AFC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 524AFFD32C411EA000A74AFC;
+					};
+					524AFFED2C411EA200A74AFC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 524AFFD32C411EA000A74AFC;
+					};
+				};
+			};
+			buildConfigurationList = 524AFFCF2C411EA000A74AFC /* Build configuration list for PBXProject "StarWars-BlastersTournamentApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524AFFCB2C411EA000A74AFC;
+			packageReferences = (
+			);
+			productRefGroup = 524AFFD52C411EA000A74AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524AFFD32C411EA000A74AFC /* StarWars-BlastersTournamentApp */,
+				524AFFE32C411EA200A74AFC /* StarWars-BlastersTournamentAppTests */,
+				524AFFED2C411EA200A74AFC /* StarWars-BlastersTournamentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524AFFD22C411EA000A74AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524AFFDF2C411EA200A74AFC /* Preview Assets.xcassets in Resources */,
+				524AFFDC2C411EA200A74AFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFE22C411EA200A74AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFEC2C411EA200A74AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524AFFD02C411EA000A74AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A000B2C4120B000A74AFC /* PlayerViewModel.swift in Sources */,
+				524A00122C41214C00A74AFC /* PointsTableView.swift in Sources */,
+				524A00192C413DEB00A74AFC /* MatchDetailView.swift in Sources */,
+				524AFFD82C411EA000A74AFC /* StarWars_BlastersTournamentAppApp.swift in Sources */,
+				524A00252C413F1700A74AFC /* StringConstants.swift in Sources */,
+				524A00062C411FF000A74AFC /* MatchModel.swift in Sources */,
+				524A00222C413E8800A74AFC /* PlayerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFE02C411EA200A74AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524AFFE92C411EA200A74AFC /* StarWars_BlastersTournamentAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524AFFEA2C411EA200A74AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524AFFF52C411EA200A74AFC /* StarWars_BlastersTournamentAppUITestsLaunchTests.swift in Sources */,
+				524AFFF32C411EA200A74AFC /* StarWars_BlastersTournamentAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524AFFE62C411EA200A74AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524AFFD32C411EA000A74AFC /* StarWars-BlastersTournamentApp */;
+			targetProxy = 524AFFE52C411EA200A74AFC /* PBXContainerItemProxy */;
+		};
+		524AFFF02C411EA200A74AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524AFFD32C411EA000A74AFC /* StarWars-BlastersTournamentApp */;
+			targetProxy = 524AFFEF2C411EA200A74AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		524A00002C411EA200A74AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarWars-BlastersTournamentApp";
+			};
+			name = Release;
+		};
+		524AFFF62C411EA200A74AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524AFFF72C411EA200A74AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524AFFF92C411EA200A74AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarWars-BlastersTournamentApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StarWars-BlastersTournamentApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StarWars;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		524AFFFA2C411EA200A74AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarWars-BlastersTournamentApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StarWars-BlastersTournamentApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StarWars;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		524AFFFC2C411EA200A74AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars-BlastersTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWars-BlastersTournamentApp";
+			};
+			name = Debug;
+		};
+		524AFFFD2C411EA200A74AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars-BlastersTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWars-BlastersTournamentApp";
+			};
+			name = Release;
+		};
+		524AFFFF2C411EA200A74AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shivansh.StarWars-BlastersTournamentAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarWars-BlastersTournamentApp";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524AFFCF2C411EA000A74AFC /* Build configuration list for PBXProject "StarWars-BlastersTournamentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524AFFF62C411EA200A74AFC /* Debug */,
+				524AFFF72C411EA200A74AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524AFFF82C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524AFFF92C411EA200A74AFC /* Debug */,
+				524AFFFA2C411EA200A74AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524AFFFB2C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524AFFFC2C411EA200A74AFC /* Debug */,
+				524AFFFD2C411EA200A74AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524AFFFE2C411EA200A74AFC /* Build configuration list for PBXNativeTarget "StarWars-BlastersTournamentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524AFFFF2C411EA200A74AFC /* Debug */,
+				524A00002C411EA200A74AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524AFFCC2C411EA000A74AFC /* Project object */;
+}
